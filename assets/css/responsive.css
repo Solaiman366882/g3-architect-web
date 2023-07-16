@@ -1,0 +1,44 @@
+/* === X Small Screen  === */
+@media only screen and (max-width:576px){
+    .container{
+        max-width: 100%;
+        padding: 0 15px;
+    }
+}
+/* === Small Screen  === */
+@media only screen and (min-width:576px){
+    .container{
+        max-width: 100%;
+        padding: 0 15px;
+    }
+}
+/* === Medium Screen  === */
+@media only screen and (min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+}
+/* === Large Screen  === */
+@media only screen and (min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+}
+/* === Extra Large Screen  === */
+@media only screen and (min-width:1200px){
+    .container{
+        max-width: 1140px;
+    }
+}
+/* === Extra X Large Screen  === */
+@media only screen and (min-width:1400px){
+    .container{
+        max-width: 1320px;
+    }
+}
+/* === Extra XX Large Screen  === */
+@media only screen and (min-width:1500px){
+    .container{
+        max-width: 1440px;
+    }
+}
