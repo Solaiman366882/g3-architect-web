@@ -1,44 +1,84 @@
-/* === X Small Screen  === */
-@media only screen and (max-width:576px){
-    .container{
-        max-width: 100%;
-        padding: 0 15px;
-    }
-}
-/* === Small Screen  === */
-@media only screen and (min-width:576px){
-    .container{
-        max-width: 100%;
-        padding: 0 15px;
-    }
-}
-/* === Medium Screen  === */
-@media only screen and (min-width:768px){
-    .container{
-        max-width: 720px;
-    }
-}
-/* === Large Screen  === */
-@media only screen and (min-width:992px){
-    .container{
-        max-width: 960px;
-    }
-}
-/* === Extra Large Screen  === */
-@media only screen and (min-width:1200px){
-    .container{
-        max-width: 1140px;
-    }
-}
-/* === Extra X Large Screen  === */
-@media only screen and (min-width:1400px){
-    .container{
-        max-width: 1320px;
-    }
-}
+
+
 /* === Extra XX Large Screen  === */
 @media only screen and (min-width:1500px){
     .container{
         max-width: 1440px;
     }
 }
+/* === Extra Large Screen  === */
+@media only screen and (max-width:1400px){
+    .container{
+        max-width: 1320px;
+    }
+}
+@media only screen and (max-width:1300px){
+    .container{
+        max-width: 1140px;
+    }
+}
+/* === X Large Screen  === */
+@media only screen and (max-width:1150px){
+    .container{
+        max-width: 1080px;
+    }
+    /* header */
+}
+/* === Large Screen  === */
+@media only screen and (max-width:1090px){
+    .container{
+        max-width: 985px;
+    }
+    /* header */
+}
+/* === Medium Screen  === */
+@media only screen and (max-width:992px){
+    .container{
+        max-width: 960px;
+    }
+    /* header */
+}
+/* === SmallScreen  === */
+@media only screen and (max-width:768px){
+    .container{
+        max-width: 720px;
+    }
+    /* Header Section */
+    nav.menu-area {
+        flex-direction: column;
+    }
+}
+/* === X Small Screen  === */
+@media only screen and (max-width:576px){
+    .container{
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    /* header section */
+    nav.menu-area {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .banner-area h1 {
+        font-size: 4rem;
+    }
+    .menu-area ul {
+        display: flex;
+        gap: 2.8rem;
+    }
+    .menu-area ul li a {
+        font-size: 1.4rem;
+    }
+    .banner-area p {
+        font-size: 1.4rem;
+        margin: 2.5rem;
+    }
+    .banner-area p br{
+        display: none;
+    }
+    .banner-area {
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+}
+

@@ -34,7 +34,7 @@ ul{
     list-style: none;
 }
 img{
-    width: auto;
+    max-width: 100%;
     vertical-align: middle;
 }
 .btn{
@@ -45,12 +45,66 @@ img{
     padding: 20px 25px;
     background-color: #FF900E;
     border: none;
+    border-radius: 8px;
 }
 .container{
     max-width: 1140px;
     margin: 0 auto;
-    min-height: 80vh;
 }
 /* === Global Css Area End === */
-/* === Global Css Area Start === */
-/* === Global Css Area End === */
+/* === Header Section Css Area Start === */
+.header-section {
+    width: 100%;
+    padding: 5rem 0 3rem;
+    background: rgba(255, 144, 14, 0.10);
+}
+.header-area {
+    width: 100%;
+}
+.menu-area {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-area a.logo {
+    color: #131313;
+    font-size: 4.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.menu-area ul {
+    display: flex;
+    gap: 6rem;
+}
+.menu-area ul li a {
+    color: #424242;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    text-transform: capitalize;
+}
+.banner-area {
+    width: 100%;
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+.banner-area p {
+    margin: 4rem 0;
+}
+/* === Header Section Css Area End === */
+
+
+
+
+
+
+
+
+
+
+
+
+/* === Header Section Css Area Start === */
+/* === Header Section Css Area End === */
