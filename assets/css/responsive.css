@@ -22,6 +22,9 @@
     .container{
         max-width: 1080px;
     }
+    .title-section p br{
+        display: none;
+    }
     /* header */
 }
 /* === Large Screen  === */
@@ -34,11 +37,26 @@
 /* === Medium Screen  === */
 @media only screen and (max-width:992px){
     .container{
+        width: 100%;
         max-width: 960px;
+        padding: 0 1rem;
     }
-    /* header */
     .banner-area p br{
         display: none;
+    }
+    h2 {
+        font-size: 3.5rem;
+    }
+    .title-section p {
+        margin-top: 1.5rem;
+        font-size: 1.4rem;
+    }
+    .title-section .btn {
+        margin-top: 1.8rem;
+        font-size: 1.6rem;
+    }
+    .feature-section {
+        padding: 5rem 0;
     }
 }
 /* === SmallScreen  === */
@@ -49,6 +67,15 @@
     /* Header Section */
     nav.menu-area {
         flex-direction: column;
+    }
+    .feature-area {
+        flex-direction: column;
+    }
+    .feature-right-text {
+        text-align: center;
+    }
+    .feature-left-img-area {
+        order: 1;
     }
 }
 /* === X Small Screen  === */

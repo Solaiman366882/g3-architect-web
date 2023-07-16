@@ -20,6 +20,9 @@ h1,h2,h3,h4,h5,h6{
 h1{
     font-size: 6.4rem;
 }
+h2{
+    font-size: 4.5rem;
+}
 p{
     color: #727272;
     font-size: 1.6rem;
@@ -51,11 +54,27 @@ img{
     max-width: 1140px;
     margin: 0 auto;
 }
+.title-section{
+    width: 100%;
+}
+.title-section p{
+    margin-top: 2.5rem;
+}
+.title-section .btn{
+    margin-top: 3rem;
+}
+.title-section h2 span:first-child{
+    color: #727272;
+    font-weight: 500;
+}
+.title-section h2 span:last-child{
+    color: #FF900E;
+}
 /* === Global Css Area End === */
 /* === Header Section Css Area Start === */
 .header-section {
     width: 100%;
-    padding: 5rem 0 3rem;
+    padding: 4.5rem 0 3rem;
     background: rgba(255, 144, 14, 0.10);
 }
 .header-area {
@@ -93,8 +112,31 @@ img{
 .banner-area p {
     margin: 4rem 0;
 }
+
 /* === Header Section Css Area End === */
 
+/* === Header Section Css Area Start === */
+.feature-section {
+    width: 100%;
+    padding: 8rem 0;
+}
+.feature-area {
+    width: 100%;
+    display: flex;
+    gap: 75px;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-area .feature-left-img-area,
+.feature-area .feature-right-text{
+    flex-basis: 50%;
+}
+.feature-left-img-area {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2.4rem;
+}
+/* === Header Section Css Area End === */
 
 
 
