@@ -252,5 +252,44 @@ section.facts-section {
 }
 /* === Facts Section Css Area End === */
 
-/* === Header Section Css Area Start === */
-/* === Header Section Css Area End === */
+/* === Sponsor Section Css Area Start === */
+section.sponsor-section {
+    width: 100%;
+}
+section.sponsor-section .title-section{
+    text-align: center;
+}
+.sponsor-area {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    margin-top: 5rem;
+}
+.sponsor-area .single-sponsor {
+    flex-basis: 153.333px;
+    height: 5rem;
+}
+.sponsor-area img {
+    width: 100%;
+    object-fit: contain;
+    filter: grayscale(1);
+}
+.sponsor-area img {
+    object-fit: contain;
+}
+/* === Sponsor Section Css Area End === */
+
+/* === Footer Section Css Area Start === */
+.footer-section {
+    width: 100%;
+    text-align: center;
+    padding: 13rem 0;
+}
+.footer-area {
+    width: 100%;
+    border-radius: 8px;
+    background: #FFF4E7;
+    padding: 3rem;
+}
+/* === Footer Section Css Area End === */

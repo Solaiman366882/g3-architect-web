@@ -69,6 +69,7 @@
     .container{
         max-width: 985px;
     }
+
     /* header */
 }
 /* === Medium Screen  === */
@@ -94,6 +95,10 @@
     }
     .feature-section {
         padding: 5rem 0;
+    }
+    .sponsor-area {
+        justify-content: center;
+        align-items: center;
     }
 }
 /* === SmallScreen  === */
