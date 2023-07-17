@@ -22,6 +22,28 @@
     .container{
         max-width: 1080px;
     }
+    h4 {
+        font-size: 4.5rem;
+        line-height: 5rem;
+    }
+    .experience-area .exp-right-img img {
+        width: 100%;
+        height: 90%;
+        margin-bottom: 3rem;
+    }
+    .experience-area .exp-right-img .exp-years h4 span {
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 4rem;
+    }
+    .experience-area .exp-right-img .exp-years {
+        padding: 3rem 3.5rem;
+        bottom: 3rem;
+        left: -4rem;
+    }
+    .experience-area {
+        gap: 6rem;
+    }
     .title-section p br{
         display: none;
     }
@@ -76,6 +98,16 @@
     }
     .feature-left-img-area {
         order: 1;
+    }
+    .experience-area {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .experience-area .exp-right-img .exp-years {
+        padding: 2rem 2.5rem;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 /* === X Small Screen  === */

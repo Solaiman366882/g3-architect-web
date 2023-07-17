@@ -23,6 +23,16 @@ h1{
 h2{
     font-size: 4.5rem;
 }
+h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 6.5rem;
+    line-height: 7rem;
+}
 p{
     color: #727272;
     font-size: 1.6rem;
@@ -138,15 +148,67 @@ img{
 }
 /* === Header Section Css Area End === */
 
-
-
-
-
-
-
-
-
-
+/* === Experience Section Css Area Start === */
+section.experience-section {
+    width: 100%;
+    background: #fff;
+}
+.experience-area {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 14.5rem;
+}
+.experience-area .title-area h2 {
+    width: 100%;
+    padding-left: 2.5rem;
+    border-left: .5rem solid #FF900E;
+    margin-bottom: 2.5rem;
+}
+.experience-area .title-area p{
+    margin-bottom: 3rem;
+}
+.experience-area .exp-info {
+    padding: 3rem;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 2rem;
+}
+.experience-area .exp-info p{
+    margin-top: 1rem;
+}
+.exp-right-img,
+.exp-left-text {
+    flex-basis: 50%;
+}
+.exp-left-text {
+    padding-top: 3.5rem;
+}
+.experience-area .exp-right-img{
+    position: relative;
+}
+.experience-area .exp-right-img img{
+    width: 708px;
+    height: 982px;
+    object-fit: cover;
+    border-radius: .8rem;
+    margin-bottom: 7rem;
+}
+.experience-area .exp-right-img .exp-years {
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 4rem 4.5rem;
+    position: absolute;
+    bottom: -2rem;
+    left: -8rem;
+}
+.experience-area .exp-right-img .exp-years h4 span{
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 4rem;
+}
+/* === Experience Section Css Area End === */
 
 /* === Header Section Css Area Start === */
 /* === Header Section Css Area End === */
